@@ -755,6 +755,8 @@ a:focus {
     align-items: center;
     box-shadow: inset 0 0 0 0 transparent;
     transition: ease-out 0.5s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .service .service-item:hover {
@@ -768,8 +770,9 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #EF233C;
+    border: #EF233C;
     background: #ffffff;
+    margin-left: 10px;
 }
 
 .service .service-icon i {
@@ -785,7 +788,7 @@ a:focus {
 
 .service .service-text {
     position: relative;
-    width: calc(100% - 120px);
+    width: calc(100% - 150px);
     padding: 0 30px;
 }
 
@@ -796,14 +799,16 @@ a:focus {
     transition: 1s;
 }
 
-.service .service-text p {
+.service .service-text p,
+.service .service-text li {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     transition: 1s;
 }
 
 .service .service-item:hover .service-text h3,
-.service .service-item:hover .service-text p {
+.service .service-item:hover .service-text p, 
+.service .service-item:hover .service-text li {
     color: #ffffff;
 }
 
@@ -872,6 +877,8 @@ a:focus {
 .portfolio .portfolio-img {
     position: relative;
     overflow: hidden;
+    width: 350px;
+    height: 270px;
 }
 
 .portfolio .portfolio-img img {
@@ -916,6 +923,18 @@ a:focus {
     justify-content: center;
     font-size: 45px;
     font-weight: 100;
+    
+}
+
+.portfolio .portfolio-text a.btn1 {
+    width: 50px;
+    height: 50px;
+    padding: 0 5px 2px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 100;
 }
 
 .portfolio .portfolio-item:hover a.btn {
@@ -924,6 +943,7 @@ a:focus {
     box-shadow: inset 0 0 0 0 #EF233C;
     border-color: #EF233C;
 }
+
 
 
 /*******************************/
