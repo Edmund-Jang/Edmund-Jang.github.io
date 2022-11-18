@@ -493,8 +493,8 @@ a:focus {
 
 .about .about-img img {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
 }
 
@@ -511,7 +511,7 @@ a:focus {
 }
 
 .about .skill-name {
-    margin-top: 15px;
+    margin-top: 22px;
 }
 
 .about .skill-name p {
@@ -757,6 +757,8 @@ a:focus {
     transition: ease-out 0.5s;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: rgba(236, 236, 236, 0.39);
+    color: rgb(66, 65, 65);
 }
 
 .service .service-item:hover {
@@ -872,6 +874,7 @@ a:focus {
 .portfolio .portfolio-wrap {
     position: relative;
     width: 100%;
+    background-color: rgba(184, 184, 184, 0.144);
 }
 
 .portfolio .portfolio-img {
@@ -934,6 +937,18 @@ a:focus {
     align-items: center;
     justify-content: center;
     font-size: 45px;
+    font-weight: 100;
+}
+
+.portfolio .portfolio-text a.btn2 {
+    width: 80px;
+    height: 50px;
+    padding: 0 5px 2px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
     font-weight: 100;
 }
 
