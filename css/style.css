@@ -1665,3 +1665,54 @@ a:focus {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+
+
+
+  /*
+  Skills Container CSS
+  */
+  #skill-con{width:100%;*zoom:1;text-align:center; max-width: 100%;display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,auto));
+} 
+
+
+  #skill-con:after {content:" "; display:block; clear:both;}
+
+  .skill-container #skill-left{float:left; width:95%; position: relative; align-items: center;
+            height: auto; padding: 10px; margin: 5px; background-color: rgb(243, 243, 243);
+    }
+
+  .skill-container #skill-center{margin:0 auto; width:95%; display:inline-block; position: relative; align-items: center;
+            height: auto; padding: 10px; margin: 5px; background-color: rgb(221, 220, 220);
+   }
+
+  .skill-container #skill-right{float:right; width:95%; position: relative; align-items: center;
+            height: auto; padding: 10px; margin: 5px; background-color: rgb(202, 202, 202);
+  
+    }
+
+
+    .skill-container p {
+        float: left;
+    }
+
+    .skill-container li {
+        text-align: left;  word-break:break-all; margin: 5px;
+    }
+
+    .skill-container hr {
+       
+        width: 50%;
+        border: none; border: 1px dashed #797979;
+    }
+
+   /*
+   Skills detail CSS
+   */
+
+    .skill-detail{ width:100%; text-align:left; max-width: 100%; display: grid; 
+    grid-template-columns: repeat(auto-fill,minmax(300px,auto)); word-break:break-all;
+    }
+
+    
