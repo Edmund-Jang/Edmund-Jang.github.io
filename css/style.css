@@ -488,22 +488,26 @@ a:focus {
 
 .about .about-img {
     position: relative;
-    height: 100%;
+    width: 100%;
 }
 
 .about .about-img img {
     position: relative;
-    width: 80%;
-    height: 80%;
+    width:95%;
+    height: auto;
     object-fit: cover;
+    margin: auto;
+    display: block;
+    
 }
 
 .about .about-content {
-    padding: 0 60px;
+    padding: 0 15px;
 }
 
-.about .about-text p {
-    font-size: 16px;
+.about .about-text li {
+    line-height: 170%;
+    font-size: 16px; 
 }
 
 .about .skills {
@@ -537,6 +541,7 @@ a:focus {
     border-radius: 10px;
     transition: 2s;
 }
+
 
 .about .about-text a.btn {
     margin-top: 15px;
@@ -1711,8 +1716,94 @@ a:focus {
    Skills detail CSS
    */
 
-    .skill-detail{ width:100%; text-align:left; max-width: 100%; display: grid; 
-    grid-template-columns: repeat(auto-fill,minmax(300px,auto)); word-break:break-all;
+    .skill-detail{ width:100%;*zoom:1;text-align:center; max-width: 100%;display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(100%,auto));
+    }
+    
+    
+    /*
+    spacemusic
+    */
+
+    .insight-img img{
+        width: 70%; height: auto;
+        margin: auto;
+        display: block;
     }
 
-    
+    .smhead3{
+        font-family: 'Montserrat', sans-serif;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        font-size: 25px;
+        color: #414141;
+        font-weight: 500;
+    }
+
+    .smdetail{
+        
+        width: 80%;
+        margin:auto; 
+        display: block;
+        padding: 5px;
+
+    }
+
+
+
+    .smreview {
+        width: 50%;
+        padding: 20px;
+        margin: auto;
+        background-color: rgb(243, 243, 243);
+        
+    }
+
+
+    .smreview-imgs img{
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+
+
+
+    .smcontainer{
+        width: 90%;
+        margin: 0 auto;
+      }
+      .smalbum{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+      }
+      .smimages{
+        position: relative;
+        display: flex;
+        height: auto;
+      }
+      .smimages img{
+        width: 100%;
+        height: auto;
+      }
+      .smdetail button, .smdetail button:active, .smdetail button:focus{
+        width: 180px; 
+        height: 25px;
+        background-color: pink;
+        outline: none;
+        border: none;
+      }
+      .smdetail button:disabled{  
+        background-color: gainsboro;
+      }
+      .prev{
+        float: left;
+      }
+      .next{
+        float: right;
+      }
+
+      
+
+
+      
