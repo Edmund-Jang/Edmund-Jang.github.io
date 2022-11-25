@@ -26,9 +26,33 @@
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
         
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#top" class="nav-item nav-link active">Top</a>
+                        <a href="#schedule" class="nav-item nav-link">Schedule</a>
+                        <a href="#role" class="nav-item nav-link">Role</a>
+                        <a href="#insight" class="nav-item nav-link">Insight</a>
+                        <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#tools" class="nav-item nav-link">Tools</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->    
+
+
     
         <!-- Title Start -->
-        <div class="title" style="background-image: url('./img/spacecover.png'); background-repeat:no-repeat; background-size: cover; background-position: center;">
+        <div class="title" style="background-image: url('./img/spacecover.png'); background-repeat:no-repeat; background-size: cover; background-position: center;" id="top">
         <div class="team" data-wow-delay="0.1s" style="text-align: center; font-size: 40px; color: wheat;">Team Project</div>
         <div style="text-align: center; font-size: 65px; color: wheat;"><b>SpaceMusic </b><img src="./img/spacelogo.png" width="140px"></div>
     </br>
@@ -38,7 +62,7 @@
 
 
         <!-- Schedule Start -->
-        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" id="schedule">
             <p>Schedule Calendar</p>
             <h2>제작기간: 약 23일</h2>
         </header>
@@ -49,7 +73,7 @@
 
 
         <!-- Work weight -->
-        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" id="role">
             <p>본인의 역할 비중도</p>
             <h2>각 파트별 역할 비중</h2>
             <div style="font-size: 25px;">총 인원: 7명</div>
@@ -121,7 +145,7 @@
 
         
    
-            <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="about wow fadeInUp" data-wow-delay="0.1s" id="insight">
 
             <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
             <p>Project Insight</p>
@@ -449,7 +473,7 @@
 
 
         <!-- Review Start -->
-        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" id="review">
             <p>프로젝트 후기</p>
             <h2>프로젝트를 마치고...</h2>
         </header>
@@ -483,7 +507,7 @@
         <!-- Review End -->
 
         <!-- Tools Start -->
-        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" id="tools">
             <p>사용된 언어 및 프로그램</p>
             <h2>Tools</h2>
         </header>
