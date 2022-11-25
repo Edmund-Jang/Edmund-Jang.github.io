@@ -1787,9 +1787,11 @@ a:focus {
         height: auto;
       }
       .smdetail button, .smdetail button:active, .smdetail button:focus{
-        width: 180px; 
-        height: 25px;
-        background-color: pink;
+        font-size: 20px;
+        font-weight: bold;
+        width: 150px; 
+        height: 40px;
+        background-color: rgba(35, 252, 6, 0.644);
         outline: none;
         border: none;
       }
