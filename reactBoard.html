@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>장윤성-ReactBoard</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#top" class="nav-item nav-link active">Top</a>
+                        <a href="#insight" class="nav-item nav-link">Insight</a>
+                        <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#tools" class="nav-item nav-link">Tools</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->    
+
+
+    
+        <!-- Title Start -->
+        <div class="title" style="background-image: url('./img/reactboardcover.jpg'); background-repeat:no-repeat; background-size: cover; background-position: center;" id="top">
+        <div class="team" data-wow-delay="0.1s" style="text-align: center; font-size: 40px; color: rgb(112, 98, 72);">React Toy Project</div>
+        <div style="text-align: center; font-size: 65px; color: rgb(112, 98, 72);"><b>React Board</b></div>
+    </br>
+        </div>
+    </br></br></br>
+        <!-- Title End-->
+
+
+        <!-- About Start -->
+
+        
+   
+            <div class="about wow fadeInUp" data-wow-delay="0.1s" id="insight">
+
+            <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+            <p>Project Insight</p>
+            <h2>React Board는?</h2>
+            <br/>
+            <img src="img/board01.jpg">
+            </header>
+
+
+
+
+            <div class="about-all" style="background-color: rgba(243, 243, 243, 0.514); width:80%; display:block; padding-top:20px; margin:auto;">
+                <details class="smdetail"><summary style="text-align: center;" class="smhead3">[실무 친화적구조]&nbsp;&nbsp;<a style="font-size: 14px;"><i>접기/펼치기</i></a></summary>
+            </br>
+
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="about-img">
+                                <img src="img/structure.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                style="cursor: pointer;" onclick="doImgPop('img/structure.jpg')">
+                                &nbsp;
+                        
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-content">
+                                <div class="about-text">
+                                    <p>
+                                        <p style="font-size: 20px;">
+                                            &nbsp;&nbsp;<b>React 토이 프로젝트</b>는 실무 친화적 구조로 구성하였습니다. <br/>
+                                            
+                                        </p>
+                                    </br>
+                                        <li>
+                                            라이브러리와 스타일(글로벌)을 하나의 폴더에 모아놓았습니다.
+                                        </li>
+                                        <li>
+                                            컴포넌트는 각 페이지와 역할에 맞추어 나누어 놓았습니다.
+                                        </li>
+                                        <li>
+                                            각 페이지의 구성요소는 units 폴더에 각각 나누어 놓았습니다.
+                                        </li>
+                                        <li>
+                                            나누어진 페이지의 구성요소 또한 container, presenter, styles, (types) 부분으로 나누었습니다.
+                                        </li>
+                                        <br/>
+                                        <p style="font-size: 20px;">
+                                            &nbsp;&nbsp;이러한 구조를 적용함으로써, 유지 보수에 유리해지고(지뢰밭 방지) 제3자가 보았을 때, 구조를 이해하고 수정이 편해진다는 장점이 있습니다. <br/>
+                                        </p>
+                                        <p>
+                                            참조: 게시판 Back-end는 React 강의를 수강한 "Codecamp" 에서 제공하는 GrapqhQL Back-end 서버를 사용하였습니다.
+                                        </p>
+                                    </br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </details>
+                <hr>
+
+                    <details class="smdetail"><summary style="text-align: center; " class="smhead3" >[Firebase 활용]&nbsp;&nbsp;<a style="font-size: 14px;"><i>접기/펼치기</i></a></summary>
+                    </br>
+            
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="about-img">
+                                    
+                                        <img src="img/firebase.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                        style="cursor: pointer;" onclick="doImgPop('img/firebase.jpg')">
+                                        
+                                </div>
+
+                            </div>
+                                
+                                <div class="col-lg-6">
+                                    <div class="about-content">
+                                        <div class="about-text">
+                                            <p>
+                                                <p style="font-size: 20px;">
+                                                    &nbsp;&nbsp;<b>Firebase</b> 사용
+                                                </p>
+                                            </br>
+                                                <li>
+                                                    Firebase의 DB를 사용한 게시판을 별도로 제작하였습니다.
+                                                </li>
+                                                <li>
+                                                    일반 게시판처럼 수정, 삭제, 댓글 등의 다른 기능을 넣지는 않았습니다.
+                                                </li>
+                                            </br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </details>
+                        <hr>
+
+
+                        <details class="smdetail"><summary style="text-align: center; " class="smhead3" >[Open API 적용]&nbsp;&nbsp;<a style="font-size: 14px;"><i>접기/펼치기</i></a></summary>
+                        </br>
+            
+                            <div class="container-fluid">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6">
+                                        <div class="about-img">
+                                    
+                                            <img src="img/openapi.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                            style="cursor: pointer;" onclick="doImgPop('img/openapi.jpg')">
+                                            
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="about-content">
+                                            <div class="about-text">
+                                                <p>
+                                                    <p style="font-size: 20px;">
+                                                        &nbsp;&nbsp;<b>Open Api</b> 적용
+                                                    </p>
+                                                </br>
+                                                    <li>
+                                                        Open Api(깃허브)에서 제공하는 Api들 중 하나를 적용시켜 보았습니다.
+                                                    </li>
+                                                    <li>
+                                                        특별한 기능은 없으며, 강아지 사진을 랜덤으로 제공해주는 Api 입니다.
+                                                    </li>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </details>
+                            <hr>
+
+                                <details class="smdetail" open="true"><summary style="text-align: center;" class="smhead3">전체 둘러보기&nbsp;&nbsp;<a style="font-size: 14px;"><i>접기/펼치기</i></a></summary>
+                                </br>
+                                                
+                                                <div class="smcontainer">
+                                                    <div class="smalbum">
+                                                      <div class="smimages">
+                                                        <img src="img/board02.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                                        style="cursor: pointer;" onclick="doImgPop('img/board02.jpg')">
+                                                        <img src="img/board03.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                                        style="cursor: pointer;" onclick="doImgPop('img/board03.jpg')">
+                                                        <img src="img/board04.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                                        style="cursor: pointer;" onclick="doImgPop('img/board04.jpg')">
+                                                        <img src="img/board05.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                                        style="cursor: pointer;" onclick="doImgPop('img/board05.jpg')">
+                                                        <img src="img/board06.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                                        style="cursor: pointer;" onclick="doImgPop('img/board06.jpg')">
+                                                        <img src="img/board07.jpg" title="클릭하시면 큰 이미지로 볼 수 있습니다."
+                                                        style="cursor: pointer;" onclick="doImgPop('img/board07.jpg')">
+                                                      </div>
+                                                    </div>
+                                                    <button class="previous">Prev</button> 
+                                                    <button class="next">Next</button>  
+                                                  </div> 
+                                            
+                                            
+                                    </details>
+                                    <hr>
+
+            </div>
+            </div>
+    </br></br></br>
+        <!-- About End -->
+
+
+        <!-- Review Start -->
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" id="review">
+            <p>프로젝트 후기</p>
+            <h2>프로젝트를 마치고...</h2>
+        </header>
+        <div class="smreview wow fadeInUp" data-wow-delay="0.1s">
+        <a style="font-size: 20px;"><p>◈<i> 아쉬웠던 부분</i></p>
+            <ul style="font-size: 17px; line-height: 170%;">
+                <li>시간상의 이유로 로그인 기능과 회원전용 게시판을 추가하지 못한 점이 아쉬웠습니다.</li>
+                <li>구직활동을 하면서 계속 진행할 예정입니다.</li>
+            </ul>
+        </br>
+        </a>
+        <a style="font-size: 20px;"><p>◈<i> 프로젝트를 통하여 배운 부분</i></p>
+            <ul style="font-size: 17px; line-height: 170%;">
+                <li>React 강의에서 강조했던, 실무에서의 폴더 구조 및 파일 분할을 적용해 볼 수 있었습니다.</li>
+                <li>(폴더 및 파일 분할이 생각처럼 되지 않았었기 때문에, 강의를 들으면서 정리 해놓았던 파일들을 많이 활용하였습니다.)</li>
+                <li>분할 작업을 하면서, React(JS, Typescript) 구조에 더욱 친숙해진 느낌을 받았습니다.</li>
+                <li>다양한 리액트 라이브러리들을 사용해볼 수 있는 기회였습니다.</li>
+            </ul>
+        </br>
+        <a style="font-size: 20px;"><p>◈<i> 총 리뷰</i></p>
+            <ul style="font-size: 17px; list-style-type:none; line-height: 170%;">
+                <li>강의에서 강조하던 실무에 맞는 폴더구조와 파일구조를 직접 적용해볼 수 있었습니다.</li>
+                <li>React와 더 친해질 수 있었던 프로젝트로, 앞으로 프론트엔드 개발자로 일함에 있어서 적용할 수 있을 것 같다는 생각이 들었습니다.</li>
+                <li>그리고 앞으로 실무를 통해, 더 많은 것들을 습득하고 여러 기능들을 구현하게 될 미래의 모습을 기대하게 만드는 프로젝트였습니다.</li>
+            </ul>
+        </a>
+        </div>
+
+
+    </br></br></br>
+        <!-- Review End -->
+
+        <!-- Tools Start -->
+        <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s" id="tools">
+            <p>사용된 언어 및 프로그램</p>
+            <h2>Tools</h2>
+        </header>
+        <div class="smtool wow fadeInUp" data-wow-delay="0.1s" style="text-align: center;"><img src="./img/libraries.jpg" width="900px;" style="max-width: 80%;"> </div>
+        <!-- Tools End -->
+        
+
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h3>↓↓ Contact ↓↓</h3>
+                        <h2>Yunseong Jang (장윤성)</h2>
+                        
+                        <div class="footer-menu">
+                            
+                            <p>jisu2775@naver.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://github.com/Edmund-Jang?tab=repositories&q=&type=&language=&sort=name" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://edmund-jang.github.io" style="color: white;">'Portfolio'돌아가기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="#">Yunseong Jang</a>, All Right Reserved | <a href="https://edmund-jang.github.io">Designed By Yunseong Jang</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
